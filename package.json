@@ -1,0 +1,11 @@
+{
+  "name": "conference-ticket-generator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cloudinary-react": "^1.8.1",
+    "formik": "^2.4.6",
+    "localforage": "^1.10.0",
+    "yup": "^1.6.1"
+  }
+}
