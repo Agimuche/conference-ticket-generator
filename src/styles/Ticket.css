@@ -1,0 +1,123 @@
+.ticket {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  color: #333;
+}
+
+.ticket-error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+
+.ticket-header {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.ticket-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .ticket-body {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+
+.ticket-photo {
+  margin-right: 20px;
+}
+
+.ticket-info {
+  flex: 1;
+}
+
+.ticket-footer {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:focus {
+  outline: 3px solid #0056b3;
+  outline-offset: 2px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004080;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+
+.ticket-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.ticket-photo {
+  margin-right: 0;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .ticket-photo {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}
+
+.ticket-details {
+  width: 100%;
+}
+
+.ticket-details p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.ticket-instructions {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-top: 1rem;
+  text-align: center;
+}
